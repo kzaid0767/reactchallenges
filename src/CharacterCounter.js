@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 
 function CharacterCounter({text, defaults}) {
-    const maxLength = 280
+    const maxLength = 50
 
     const [charcount, setCharcount] = useState(0)
 
